@@ -50,7 +50,7 @@ gulp.task("serve", function () {
     });
 
     gulp.watch("./src/**/*.html", gulp.series("html"));
-    gulp.watch("./src/**/*.scss", gulp.series("style"));
+    gulp.watch("./src/**/*.css", gulp.series("style"));
     gulp.watch("./src/**/*.js", gulp.series("js"));
 })
 
